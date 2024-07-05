@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rohit-sabapathi/MyPortfolio/static/css/main.7e45b37e.css",
+    "main.js": "/rohit-sabapathi/MyPortfolio/static/js/main.16f1759d.js",
+    "static/js/453.83234151.chunk.js": "/rohit-sabapathi/MyPortfolio/static/js/453.83234151.chunk.js",
+    "static/media/logo.svg": "/rohit-sabapathi/MyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rohit-sabapathi/MyPortfolio/index.html",
+    "main.7e45b37e.css.map": "/rohit-sabapathi/MyPortfolio/static/css/main.7e45b37e.css.map",
+    "main.16f1759d.js.map": "/rohit-sabapathi/MyPortfolio/static/js/main.16f1759d.js.map",
+    "453.83234151.chunk.js.map": "/rohit-sabapathi/MyPortfolio/static/js/453.83234151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e45b37e.css",
+    "static/js/main.16f1759d.js"
+  ]
+}
