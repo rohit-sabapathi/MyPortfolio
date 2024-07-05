@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #E5D4FF;
+  color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header a {
+  color: rgb(0, 0, 255);
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+.landing{
+  background-color: #F1EAFF;
+}
+
+.projects{
+  background-color: #F1EAFF;
+}
+
+.contact1{
+  background-color: #F1EAFF ;
+  justify-content: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  color: black !important;
+  text-decoration: none !important;
+  background-color: white;
+  border: 1px solid rgb(230, 140, 218);
+  padding: 10px;
+  border-radius: 20px;
+  transition:all 0.3s ease;
+  margin: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: #F1EAFF;
+}
+
+form {
+  justify-content: center;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  width: 25%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: lavender;
+  color: black;
+  border: 1px solid rgb(230, 140, 220);
+  border-radius: 8px;
+}
+
+form button:hover{
+  color: rgb(230, 140, 220);
+  box-shadow: 5px 5px 0 grey;
+  background-color: white;
+}
+
+
+span{
+  color: gray;
+}
