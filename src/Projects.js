@@ -4,13 +4,13 @@ const projects = [
     {
         id: 1,
         title:'The Calculator',
-        description: 'A simple calculator to perform basic math calculations',
+        description: 'A Simple Calculator to perform Basic Math Calculations.',
         link:"https://rohitsabapathi.pythonanywhere.com"
     },
     {
         id:2,
         title:'The RecipyBook',
-        description: 'A community Recipe Book where you can showcase your recipe to the public.',
+        description: 'A Community Recipe Book where you can showcase your Recipes to the Public.',
         link:"https://recipybook.pythonanywhere.com"
     }
 ];
