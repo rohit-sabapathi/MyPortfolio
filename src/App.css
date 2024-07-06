@@ -4,6 +4,11 @@ html {
 
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -13,36 +18,41 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
-
 
 header a {
   color: rgb(0, 0, 255);
   text-decoration: none;
 }
 
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
 section {
   text-align: center;
   padding: 20px;
-}
-
-.landing{
-  background-color: #F1EAFF;
-}
-
-.projects{
-  background-color: #F1EAFF;
-}
-
-.contact1{
-  background-color: #F1EAFF ;
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+}
+
+.landing, .projects, .contact1 {
+  background-color: #F1EAFF;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  padding: 20px;
 }
 
 .project-card {
@@ -52,7 +62,7 @@ section {
   border: 1px solid rgb(230, 140, 218);
   padding: 10px;
   border-radius: 20px;
-  transition:all 0.3s ease;
+  transition: all 0.3s ease;
   margin: 10px;
 }
 
@@ -63,35 +73,61 @@ section {
 }
 
 form {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
 }
+
 form label {
   display: block;
-  margin-top: 10px;
+  margin-top: 15px;
+  width: 100%;
+  text-align: left;
 }
 
 form input, form textarea {
-  width: 25%;
-  padding: 8px;
-  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
   border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+form textarea {
+  height: 150px;
+  resize: vertical;
 }
 
 form button {
-  padding: 10px 20px;
-  background-color: lavender;
+  padding: 12px 24px;
+  margin-top: 10px;
+  background-color: #E5D4FF;
   color: black;
   border: 1px solid rgb(230, 140, 220);
   border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
 }
 
-form button:hover{
-  color: rgb(230, 140, 220);
-  box-shadow: 5px 5px 0 grey;
+form button:hover {
   background-color: white;
+  color: rgb(230, 140, 220);
+  box-shadow: 3px 3px 0 rgba(230, 140, 220, 0.5);
 }
 
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
 
-span{
+span {
   color: gray;
 }
