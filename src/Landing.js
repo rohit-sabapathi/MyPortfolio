@@ -4,6 +4,7 @@ function Landing(){
     return(
         <section className='landing' id='home'>
             <img src={`${process.env.PUBLIC_URL}/rooo.jpeg`} alt='My Photo'/>
+            <h3>Rohit Sabapathi</h3>
             <p>My name is Rohit Sabapathi , you can call me Rohit. I'm currently pursuing my Diploma in Computer Science at Thiagarajar Polytechnic College Salem, Tamil Nadu , India.
                 I'm currently in the adventure of gaining Knowledge and Skills to Conclude my Aim.
                 My Aim is to provide my contributions as ideas and implementing it , to improve and help in the growth of the emerging Technologies.
